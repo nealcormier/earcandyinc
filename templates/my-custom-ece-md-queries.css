@@ -1,0 +1,384 @@
+/**
+ * @file
+ * This file can host your custom  media queries CSS for EarCandyInc.
+ */
+
+
+@media screen and (max-width: 1024px) {
+  #main_container {
+    width: 100%;
+  }
+  
+  #header_top .search {
+    width: 0%;
+  }
+  
+  #header_top .menu_cont a {
+    padding: 19px 6px 0px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 940px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 3em;
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 5px 10px 5px;
+  letter-spacing:  5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+}
+
+
+
+ }
+
+
+
+@media screen and (max-width: 767px) {
+
+  #header_top {
+    position: relative;
+    text-align: center;
+    border-bottom: none;
+    margin-top: 12px
+  }
+  
+  #header_top .header_top_border {
+    display: none;
+  }
+  
+  #header_top a.toggle {
+    display: inline;
+    margin: 4%;
+    background-color: #ccc;
+  }
+
+  #header_top .menu_cont a,
+  #header_top .menu_cont a:hover  {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #langs,
+  #langs ul,
+  #langs li{
+    float: none;
+    display: inline;
+    margin: 0;
+  }
+
+  #langs .language-link {
+    background-color: transparent;
+    border-top: none;
+    bottom: 5px;
+    display: inline;
+    font-size: 17px;
+    padding: 0;
+    position: relative;
+  }
+  
+  #header_top .search,
+  .social,
+  #header_menu {
+    display: none;
+  }
+
+  #header_top nav.menu_cont{
+    height:0;
+    overflow:hidden;
+  }
+  
+  #header_top nav.menu_cont.open{
+    height:auto;
+    float:none;
+  }
+  
+  #header_top .open #sub-menu,
+  #header_top nav.menu_cont.open ul li,
+  #header_top nav.menu_cont.open ul {
+    background: #fff;
+    clear: both;
+    display:block;
+    float:none;
+  }
+  
+  #header_top nav.menu_cont.open .social  {
+    border-top: 1px solid #CCC;
+    display: block;
+    float: none
+  }
+  
+  #header_top nav.menu_cont.open .social a {
+    border-top: 0;
+    display: inline;
+    float: left;
+    padding-bottom: 4px;
+  }
+    
+  #header {
+    padding-top: 30px;
+  }
+
+  a.logo {
+    clear: both; 
+    float: none;
+    max-width: 300px; 
+    margin: 0 auto;
+  }
+
+  a.logo img{
+    max-height: 70px;
+  }
+  
+  #site-name {
+    font-size:35px
+  }
+  
+  #header .section {
+    text-align: center;
+  }
+  
+  #name-and-slogan {
+    float: none;
+  }
+  
+  .menu_cont #menu {
+    display: none;
+  }
+
+  .big-post-box,
+  .big_post_box {
+    height:auto;
+    width: 100%; 
+  }
+
+  .big-post-box img, 
+  .big_post_box img {
+    height: inherit;
+    width: 100%;
+  }
+
+  .post-box,
+  .post_box {
+    height: auto;
+    max-height: 45.01779359%;
+    overflow: hidden;
+    width: 50%;
+  }
+
+  .post-box img, 
+  .post_box img {
+    height: inherit;
+    width: 100%;
+  }
+  
+  #sidebar,
+  #single_left {
+    float: none;
+    width: 100%;
+  }
+
+
+
+  #commentform textarea {
+    width: 280px;
+  }
+  
+  .blog-box, 
+  .blog_box {
+    margin: 0 auto 25px;
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .post-box,
+  .post_box {
+    float:none;
+    width:100%;
+  }
+  
+  .big-post-box,
+  .big_post_box {
+    float:none;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+
+
+
+ }
+
+
+@media screen and (max-width: 540px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.3em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+}
+
+@media screen and (max-width: 520px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 2em;
+  font-weight: 800;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+  
+  
+
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px 5px 20px 5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+
+ }
+
+
+@media screen and (max-width: 320px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+
+
+}
+
+
+ }
+
+
+@media screen and (max-width: 320px) {
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 1.1em;
+  font-weight: 800;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing:  5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+}
+
+
+ }
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,474 @@
+/**
+ * @file
+ *  * Here is CSS for Media Queries that are extended on top of core ones.
+ */
+
+
+@media screen and (max-width: 1024px) {
+  #main_container {
+    width: 100%;
+  }
+  
+  #header_top .search {
+    width: 0%;
+  }
+  
+  #header_top .menu_cont a {
+  padding: 21px 47px 7px 28px;  
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+  
+#firstdiv_about{
+width: 45%;
+
+}	
+
+#firstdiv_about img {
+width:80%;
+}
+
+#seconddiv_about {
+width: 45%;
+}
+
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 3em;
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 5px 10px 5px;
+  letter-spacing:  5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+}
+
+
+.view .date-nav-wrapper .date-heading h3 {
+font-size: 1.1em;
+  font-weight: 70;
+  margin: 0;
+  height: 43px;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 15px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+#header_top .menu_cont a {
+    width: 100%;
+    padding: 0.8em 2.6em 0.5em 1em;
+    font-size: 1.2em;
+}
+ 
+  #firstdiv_about{
+width: 40%;
+
+}	
+
+
+#firstdiv_about img {
+width:70%;
+}
+
+
+
+#seconddiv_about {
+width: 45%;
+}
+
+.view .date-nav-wrapper .date-heading h3 {
+font-size: 1em;
+  font-weight: 50;
+  margin: 0;
+  height: 43px;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 15px;
+  }
+  
+
+
+ }
+
+
+@media screen and (max-width: 540px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.3em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+}
+
+@media screen and (max-width: 520px) {
+
+.view .date-nav-wrapper .date-heading h3 {
+font-size: 1em;
+  font-weight: 50;
+  margin: 0;
+  height: 43px;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 15px;
+  }
+  
+  
+  
+#firstdiv_about img {
+width:60%;
+}
+
+
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 2em;
+  font-weight: 800;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+  }
+  
+ #firstdiv_about{
+width: 100%;
+}	
+
+
+
+
+#seconddiv_about {
+width: 100%;
+}
+
+
+  #header_top {
+    position: relative;
+    text-align: center;
+    border-bottom: none;
+    margin-top: 12px
+  }
+  
+  #header_top .header_top_border {
+    display: none;
+  }
+  
+  #header_top a.toggle {
+    display: inline;
+    margin: 8%;
+    background-color: #443f3f;
+    padding: 20px;
+  }
+
+  #header_top .menu_cont a,
+  #header_top .menu_cont a:hover  {
+  border-top: 1px solid #000;
+    padding: 15px;
+    font-size: 17px;
+  }
+  
+
+  
+  #header_top nav.menu_cont{
+    height:0;
+    overflow:hidden;
+  }
+  
+  #header_top nav.menu_cont.open{
+    height:auto;
+    float:none;
+  }
+  
+  #header_top .open #sub-menu,
+  #header_top nav.menu_cont.open ul li,
+  #header_top nav.menu_cont.open ul {
+    background: #000;
+    clear: both;
+    display:block;
+    float:none;
+  }
+  
+  #header_top nav.menu_cont.open .social  {
+    display: block;
+    float: none
+  }
+  
+  #header_top nav.menu_cont.open .social a {
+    border-top: 0;
+    display: inline;
+    float: left;
+    padding-bottom: 4px;
+  }
+    
+  #header {
+    padding-top: 30px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px 5px 20px 5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+
+}
+
+
+#firstdiv_about{
+width: 100%;
+}	
+
+
+#firstdiv_about img {
+width:60%;
+}
+
+
+#seconddiv_about {
+width: 100%;
+}
+
+
+
+  #header_top {
+    position: relative;
+    text-align: center;
+    border-bottom: none;
+    margin-top: 12px
+  }
+  
+  #header_top .header_top_border {
+    display: none;
+  }
+  
+  #header_top a.toggle {
+    display: inline;
+    margin: 8%;
+    background-color: #443f3f;
+    padding: 20px;
+  }
+
+  #header_top .menu_cont a,
+  #header_top .menu_cont a:hover  {
+  border-top: 1px solid #000;
+    padding: 15px;
+    font-size: 17px;
+  }
+  
+
+  
+  #header_top nav.menu_cont{
+    height:0;
+    overflow:hidden;
+  }
+  
+  #header_top nav.menu_cont.open{
+    height:auto;
+    float:none;
+  }
+  
+  #header_top .open #sub-menu,
+  #header_top nav.menu_cont.open ul li,
+  #header_top nav.menu_cont.open ul {
+    background: #000;
+    clear: both;
+    display:block;
+    float:none;
+  }
+  
+  #header_top nav.menu_cont.open .social  {
+    display: block;
+    float: none
+  }
+  
+  #header_top nav.menu_cont.open .social a {
+    border-top: 0;
+    display: inline;
+    float: left;
+    padding-bottom: 4px;
+  }
+    
+  #header {
+    padding-top: 30px;
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+}
+
+
+ }
+
+
+@media screen and (max-width: 320px) {
+
+.post-box h3,
+.post-box h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #000 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #000);
+  
+  }
+
+#firstdiv_about img {
+width:50%;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+  .post-box,
+  .post_box {
+    float:none;
+    width:100%;
+  }
+  
+  .big-post-box,
+  .big_post_box {
+    float:none;
+  }
+  
+  
+  
+ 
+  #firstdiv_about{
+width: 100%;
+
+}	
+
+
+#firstdiv_about img {
+width:60%;
+}
+
+
+#seconddiv_about {
+width: 100%;
+}
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+.big-post-box h3,
+.big-post-box h3 {
+  font-size: 1.1em;
+  font-weight: 800;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  letter-spacing:  5px;
+  text-transform: uppercase;
+  background-image: linear-gradient(200deg, #1e1e1e, #454545 125px);
+  background-image: -webkit-linear-gradient(top, #1e1e1e, #454545);
+}
+
+
+ }
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+

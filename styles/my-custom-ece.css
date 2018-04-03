@@ -1,0 +1,74 @@
+/**
+ * @file
+  CSS For EarCandy
+ * 
+ */
+
+body {
+  color: #666;
+  font-family: arial, georgia, verdana;
+  font-size: 12px;
+  background: url(../images/earbg.jpg) scroll top #000;
+}
+
+.big-post-box h3,
+.big_post_box h3 {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, left bottom, left bottom, from(#ffffff), to(#999999));
+  background-image: -webkit-linear-gradient(bottom, #ffffff, #999999);
+  background-image:    -moz-linear-gradient(bottom, #ffffff, #999999);
+  background-image:      -o-linear-gradient(bottom, #ffffff, #999999);
+  background-image:         linear-gradient(bottom, #ffffff, #999999);
+
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  padding: 40px 40px 40px 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  height:100px;
+}
+
+.post-box h3,
+.post_box h3 {
+  background-color: #f3f3f3;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 10px 10px 15px;
+  letter-spacing: 10px;
+}
+
+#site-name {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+a.logo {
+    display: block;
+    overflow: hidden;
+    width: 30%;
+	height:30%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header {
+}
+
+#header_top .menu_cont li.active a {
+}
+
+#header_top .menu_cont a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    height:50px;
+    text-align: center;
+    background-color: red;
+    font-size:2.2em;
+}
